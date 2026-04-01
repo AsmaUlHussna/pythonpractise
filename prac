@@ -205,6 +205,105 @@
 
 # print(count)
 
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+# print("Try programiz.pro")
+# date_1 = "02/08/2008"
+# date_2 = "05/04/2008"
+# #print(date_1)
+# new_1 = (date_1[6:])
+# new_2 = (date_2[6:])
+# print(new_1)
+# print(new_2)
+# if (new_1 > new_2):
+#     print(f"Date 1 {new_1} is greater")
+# elif (new_1 < new_2):
+#     print(f"Date 2 {new_2} is greater")
+# elif (new_1 == new_2):
+#     print(f"both dates are same")
+# else:
+#     print("Error")
+# first = input("First name = ")
+# second = input("Second name = ")
+# final = (f" {first} {second} ")
+# print(final)
+# text = "mango, banana, orange"
+# result = text.split(",")[2]
+# print(result)
+# text = "02-05-2002"
+# result = text.split("-")[0]
+# print(result)
+# a = "Priya"
+# b = "Kola"
+# print(a == b)
+# print(a>b)
+# if a == b:
+#     print("equal")
+# else:
+#     print("not equal")
+# text = "LOVE"
+# print(text[1:3])
+# text = "I love books"
+# print ("books" in text)
+# print(text.find("books"))
+# print(text.title())
+
+
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+# print("Try programiz.pro")
+# text= ["1","2","3","4"]
+# for i in range (0,len(text)):
+#     print(i, text[i])
+# words = "I love programming"
+# print (str(words).split()[2])
+# words = "My name Priya"
+# count = (str(words).split())
+# print(count)
+# minword = count[0]
+
+# for i in range (0, len(count)):
+#     length = len(count[i])
+#     print (count[i], length)
+#     if length < len(minword): 
+#         minword = count[i]
+# print (minword)
+#v =2, c =3
+# a  = "zmkdfgh"
+# print(len(a))
+# #print(a[0])
+# #print(a[1])
+# v_count = 0
+# c_count = 0
+# for i in range(len(a)):
+#     print(a[i])
+#     if (a[i] == 'a' or a[i] == 'e' or a[i] == 'i' or a[i] == 'o' or a[i] == 'u'):
+#         v_count += 1
+#     else:
+#         c_count += 1
+# print(v_count)
+# print(c_count)
+#result =dcba
+
+# s = "abcd"
+# result = ""
+# for i in range(len(s)):
+#     print(i, s[i])
+#     result =  result + s[i]
+# print(result)
+
+p = "ABA"
+result = ""
+for i in range (len(p)):
+    print (i, p[i])
+    result = p[i] + result
+print (result)
+if result == p:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+
 
 
 
