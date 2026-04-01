@@ -1,0 +1,213 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+# u_name = input("Enter you name ")
+# u_pass = input("Enter your password ")
+# ori_name = "Risul"
+# ori_pass = "1234"
+# if (u_name == ori_name and u_pass == ori_pass):
+#     print("Login successfull")
+# else:
+#     print("Attempt fail")
+    
+# username = input("Enter username: ")
+# password = input("Enter password: ")
+
+# print(username == "admin" and password == "1234")
+# mark = int(input("enter your marks"))
+# print (mark >= 40)
+# mark = int(input("enter your marks"))
+# if (mark >= 40):
+#     print("Pass")
+# else:
+#     print("fail")
+# num = int((input("Enter num ")))
+# print(num <= 10 and num >=1 )
+# num = int((input("Enter num ")))
+# if (num <= 10 and num >=1 ):
+#     print("number in range")
+# else:
+#     print ("number is not in range")
+# Write a program:
+
+# Input age
+# Input country
+# Print True if:
+# age ≥ 18
+# AND country == "USA"
+# age = input("enter your age ")
+# country_name = input("enter your country name ")
+# print(age >= "18" and country_name == "USA")
+#👉 Input two numbers (as strings) and add them:
+# num1 = input("Enter 1st num ")
+# num2 = input("Enter 2nd num ")
+# result = (int(num1) + int(num2))
+# print(result)
+# text = "25"
+# num = int(text)
+# print(num)
+# print(type(num))
+
+# num = 10
+# f = float(num)
+# print(f)
+# print(type(f))
+
+# num = 4.5
+# i = int(num)
+# print(i)
+# print(type(i))
+# num = 100
+# s = str(num)
+# print(s)
+# print(type(s))
+# 🎯 Challenge Problem
+
+# 👉 Take user input:
+
+# Name (string)
+# Age (string → int)
+
+# Print:
+
+# Hello Priya, next year your age will be X
+# nam = input("Enter you name ")
+# age = input("enter age")
+# age_i = int(age)
+# print(f"Hello {nam}, next year your age will be {age_i+1}")
+
+
+#print(f"Hello {nam}, next year your age will be {age_i + 1}")
+#Print numbers from 5 to 50 with step 5
+# for i in range (5, 51,5):
+#     print (i)
+# Print reverse numbers from 10 to 1
+# for i in range (10,0,-1):
+#     print(i)
+# # Print multiples of 3 from 3 to 30
+# for i in range(3,31,3):
+#     print(i)
+# # 🔥 Challenge 1: Sum of user input numbers
+# # 👉 Ask user for 5 numbers and find total
+# num1 = int(input("1st num "))
+# num2 = int(input("2nd num "))
+# num3 = int(input("3rd num "))
+# num4 = int(input("4th num"))
+# num5 = int(input("5th num"))
+# result = int(num1)+int(num2)+int(num3)+int(num4)+int(num5)
+# print(result)
+# total = 0
+
+# for i in range(5):
+#     num = int(input("Enter number: "))
+#     total = total+num
+
+# print("Total:", total)
+
+# 🔥 Challenge 2: Count even numbers from 1–50
+# for i in range(0,51,2):
+#     print(i)
+# for i in range(0,51):
+#     if (i%2==0):
+#         print(i)
+# count = 0
+# for i in range(1,51,2):
+#     #print(i)
+#     count += 1
+# print(f"{count}")
+# count = 0
+
+# for i in range(2, 51, 2):
+#     count += 1
+
+# print(count)
+# 🔥 Challenge 3: Print only numbers divisible by 3 (1–30)
+# for i in range (1,31):
+#     if(i%3==0):
+#         print(i)
+# Sum of first 10 numbers
+# Total = 0
+# for i in range (1,11):
+#     # num = input("enter num")
+#     Total = Total + i
+# print(Total)
+    
+# 🧪 More Counting Problems
+# 1️⃣ Count even numbers (1–100)
+
+# 👉 Write a program to count how many even numbers exist between 1 and 100.
+# count = 0
+# for i in range(0,101,2):
+#     count += 1
+# print(count)
+
+# 2️⃣ Count odd numbers (1–50)
+# count = 0
+# for i in range(1,51,2):
+#     count += 1
+# print(count)
+
+# 👉 Count how many odd numbers are in this range.
+
+# 3️⃣ Count numbers divisible by 5 (1–200)
+# count = 0
+# for i in range(1,201,5):
+#     count += 1
+# print(count)
+
+# 👉 Find total count of numbers divisible by 5.
+
+# 4️⃣ Count numbers divisible by both 3 and 5 (1–100)
+# count = 0
+# for i in range(1,51,2):
+#     if (i%3 == 0 and i%5==0):
+#         count += 1
+# print(count)
+# 5️⃣ Count user-entered positive numbers
+
+# 👉 Ask user to enter 10 numbers and count how many are positive
+# count = 0
+# for i in range(10):
+#     num = int(input("Enter num "))
+#     if num >= 0:
+#         count += 1
+# print(count)
+# text = "ABA"
+# print(text[::-1])
+#Find largest number in a list
+
+
+# numbers = [20, 10, 30, 100]
+
+# max_num = numbers[0]
+
+# for i in range(len(numbers)):
+#     if numbers[i] > max_num:
+#         max_num = numbers[i]
+
+# print(max_num)
+
+# numbers = [20, 10, 30, 100]
+
+# min_num = numbers[0]
+
+# for i in range(len(numbers)):
+#     if numbers[i] < min_num:
+#         min_num = numbers[i]
+
+# print(min_num)
+
+# numbers = [20, 10, 30, 100]
+
+# count = 0
+
+# for i in range(len(numbers)):
+#     count += 1
+
+# print(count)
+
+
+
+
+
+
+
