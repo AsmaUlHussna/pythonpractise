@@ -42,3 +42,110 @@ for i in range(len(s)):
 print (zero_count)
 print (lessthanzero_count)
 print (greaterthanzero_count)
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+#print("Try programiz.pro")
+# s = [1, 2, 3, 4]
+# total = 0
+# # print (s[0])
+# for i in range(len(s)):
+#     total = total + s[i]*s[i]
+# print (total)
+
+# s = [0, 2, 3, 0,-1,-3]
+# count = 0
+# # print (s[0])
+# for i in range(len(s)):
+#     if s[i]==0 and s[i] > 0 and s[i] < 0:
+#         count += 1
+#         # print(f"Zero: {count}")
+#     # elif s[i] > 0:
+#     #         print(f"Greater than Zero: {count}")
+#     # else:
+#     #     print(f"Less than zero:{count}")
+#     #count += 1
+# print (count)
+# s = [0, 2, 3, 0,-1,-3,8,2,-4,-1,0,-2]
+# zero_count = 0
+# greaterthanzero_count = 0
+# lessthanzero_count = 0
+# # print (s[0])
+# for i in range(len(s)):
+#     if s[i]<0:
+#         lessthanzero_count += 1
+#     elif s[i]>0:
+#         greaterthanzero_count += 1
+#     elif s[i]==0:
+#         zero_count += 1
+        
+# print (zero_count)
+# print (lessthanzero_count)
+# print (greaterthanzero_count)
+# Reverse a string
+# Count vowels in a string
+# Find largest of 3 numbers
+
+
+
+# words = "PRIYA"
+# rev = ""
+
+# for i in range(len(words)):
+#     rev = words[i] + rev
+
+# print(rev)
+# words = "PRIYA"
+# rev = ""
+
+# for ch in words:
+#     rev = ch + rev
+
+# print(rev)
+
+# words = "PRIYA"
+# vo = ""
+
+# for i in range(len(words)):
+#     if words[i].lower() in "aeiou":
+#         vo = words[i] + vo
+# print(vo)
+# words = "PRIYA"
+# vo = ""
+# con = ""
+
+# for i in range(len(words)):
+#     if words[i].lower() in "aeiou":
+#         vo = words[i] + vo
+#     else:
+#         con = words[i] + con
+# print(vo)
+# print(con)
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
