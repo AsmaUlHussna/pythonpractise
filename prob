@@ -1,0 +1,54 @@
+Code:
+s = "abcd"
+print(s[::-1])
+👉 Output:
+dcba
+🧠 Concept: Slicing
+
+Python slicing format:
+
+s[start : stop : step]
+What does [::-1] mean?
+s[::-1]
+start → not given → default (end of string)
+stop → not given → default (before beginning)
+step = -1 → move backward
+🔁 How it works
+
+String:
+
+a   b   c   d
+0   1   2   3
+
+Reverse traversal:
+
+d → c → b → a
+🔥 Internally Python does:
+Start from last index → d
+Move one step backward (-1)
+Keep going until beginning
+✅ Equivalent loop
+s = "abcd"
+
+for i in range(len(s)-1, -1, -1):
+    print(s[i], end="")
+
+👉 Output:
+
+dcba
+Key Idea
+
+👉 [::-1] = reverse the string
+
+🔥 More examples
+s = "python"
+
+print(s[::-1])   # nohtyp
+print(s[::1])    # python
+print(s[::2])    # pto (skip 1 char)
+🚀 Easy Rule
+step = 1 → forward
+step = -1 → backward
+👉 So:
+
+[::-1] → reverse
