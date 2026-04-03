@@ -23,4 +23,79 @@ print(max_3)
 print(s.remove(max_3))
 print(s)
 print(max_1 , max_2 , max_3)
+##RESERVE string and list##
+# words = "PRIYA"
+# rec = ""
+# for ch in words:
+#     rec = ch + rec
+    
+# print(rec)
+
+num = [10, 20 , 30, 40]
+rev = []
+for n in num:
+    rev = [n] + rev
+print(rev)
+
+# words = "PRIYA"
+# rec = ""
+# for ch in words:
+#     rec = ch + rec
+    
+# print(rec)
+
+# num = [10, 20 , 30, 40]
+# rev = []
+# for n in num:
+#     rev = [n] + rev
+# print(rev)
+
+# num = [10, 20 , 30, 40, 20]
+# dub = []
+# for i in range(len(num)):
+#     for j in range(len(num)):
+#         if (num[i] == num[j]):
+#             dub = num[j]
+# print(dub)
+num = [10, 20 , 20, 40, 20]
+dub = []
+count = 0
+for i in range(len(num)):
+    for j in range(len(num)):
+        if (num[i] == num[j]):
+            dub = num[j]
+            count +=1
+print(dub, count, "times")
  
+# rows=4
+# columns=2
+# for i in range(rows):
+#     for j in range(columns):
+#         print("*", end=" ")
+# rows = 4
+# columns = 2
+# for i in range(rows):
+#     for j in range(columns):
+#         print("*", end =" ")
+#     print()
+    
+# print("*", end = " ")
+# print()
+# print("*", end = " ")
+# print("*", end = " ")
+
+
+# for i in range(5):
+#     for j in range (5):
+#         print("*", end ="")
+#     print()
+# *
+# **
+# ***
+# ****
+# rows = 4
+# columns = 1
+# for i in range(columns):
+#     for j in range (rows):
+#         print("*", end = "")
+#     print()
