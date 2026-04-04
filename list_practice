@@ -1,0 +1,56 @@
+Print all elements of a list
+Find the length of a list (without using len())
+Access first and last element of a list
+Reverse a list
+Print elements one by one using a loop
+Find sum of all elements in a list
+Find maximum element in a list
+Find minimum element in a list
+Count how many elements are in the list
+Copy elements of one list into another list
+Count even and odd numbers in a list
+Separate even and odd numbers into two lists
+Find the second largest number in a list
+Remove duplicates from a list
+Check if a list is empty
+Find the frequency of each element
+Replace all occurrences of a number in a list
+Find the index of a given element
+Rotate a list by 1 position
+Merge two lists into one
+
+🔵 Intermediate Level
+Reverse a list without using built-in methods
+Find the 3 largest numbers in a list
+Find the 2nd smallest number
+Check if a list is sorted
+Sort a list without using sort()
+Find common elements between two lists
+Find unique elements in a list
+Flatten a nested list
+Remove negative numbers from a list
+Move all zeros to the end of the list
+
+🔴 Interview-Level Problems
+Find the missing number in a list of 1 to n
+Find duplicate elements in a list
+Find pairs that sum to a target value
+Find subarray with maximum sum (Kadane’s idea)
+Merge two sorted lists into one sorted list
+Find majority element (appears > n/2 times)
+Check if two lists are anagrams (same elements, different order)
+Find intersection and union of two lists
+Remove all occurrences of a given element
+Find longest increasing subsequence (basic understanding)
+💡 Suggested Practice Order
+
+Start in this order:
+
+Reverse list
+Max/min/sum
+Even/odd separation
+Duplicate removal
+Second largest
+Frequency counting
+Missing number / pair sum
+
