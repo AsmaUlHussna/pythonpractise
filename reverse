@@ -1,0 +1,26 @@
+#list[len(list) - 1]
+# a = [1,2,3,4]
+# l = []
+# for i in range(len(a)):
+#     if (a[i] not in l):
+#         a.append(a[len(a)-1 + a[i])
+# print(l)
+# a = [1,2,3,4]
+# l = []
+
+# for i in range(len(a)-1, -1, -1):
+#     l.append(a[i])
+
+# print(l)
+
+# a = [1,2,3,4]
+
+# for i in range(len(a)-1,-1,-1):
+#     print(a[i], end="")
+
+
+# a = [1,2,3,4]
+
+# a.reverse()
+
+# print(a)
