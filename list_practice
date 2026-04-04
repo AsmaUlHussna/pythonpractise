@@ -1,3 +1,4 @@
+🟢 Beginner Level
 Print all elements of a list
 Find the length of a list (without using len())
 Access first and last element of a list
@@ -8,6 +9,8 @@ Find maximum element in a list
 Find minimum element in a list
 Count how many elements are in the list
 Copy elements of one list into another list
+
+🟡 Basic Logic Building
 Count even and odd numbers in a list
 Separate even and odd numbers into two lists
 Find the second largest number in a list
