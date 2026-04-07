@@ -9,6 +9,61 @@ Find maximum element in a list
 Find minimum element in a list
 Count how many elements are in the list
 Copy elements of one list into another list
+for item in a:
+    print(item)
+
+# Length without len()
+count = 0
+for i in a:
+    count += 1
+print("Length:", count)
+
+# First and last element
+print("First:", a[0])
+print("Last:", a[-1])
+
+# Reverse (slicing)
+print("Reversed:", a[::-1])
+
+# Reverse (loop)
+rev = []
+for i in range(len(a)-1, -1, -1):
+    rev.append(a[i])
+print("Reversed (loop):", rev)
+b = [1, 2, 10, 20]
+
+# Sum
+total = 0
+for i in b:
+    total += i
+
+# Max
+max_val = b[0]
+for i in b:
+    if i > max_val:
+        max_val = i
+
+# Min
+min_val = b[0]
+for i in b:
+    if i < min_val:
+        min_val = i
+
+# Count
+count = 0
+for i in b:
+    count += 1
+
+# Copy
+copy_list = []
+for i in b:
+    copy_list.append(i)
+
+print("Sum:", total)
+print("Max:", max_val)
+print("Min:", min_val)
+print("Count:", count)
+print("Copy:", copy_list)
 
 🟡 Basic Logic Building
 Count even and odd numbers in a list
